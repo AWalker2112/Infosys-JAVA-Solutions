@@ -11,7 +11,9 @@ public class Runner {
 		//FlowCharts.flowDecisionProject(2100);
 		
 		
-		System.out.println(BlackJack.blackJackLogic(22, 23));
+		//System.out.println(BlackJack.blackJackLogic(22, 23));
+		
+		System.out.println(UniqueSum.calculator(1, 1, 2));
     }
 
 }
