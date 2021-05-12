@@ -8,7 +8,10 @@ public class Runner {
 		
 		//Results.method1(10, 20, 30);
 		
-		FlowCharts.flowDecisionProject(2100);
+		//FlowCharts.flowDecisionProject(2100);
+		
+		
+		System.out.println(BlackJack.blackJackLogic(22, 23));
     }
 
 }
