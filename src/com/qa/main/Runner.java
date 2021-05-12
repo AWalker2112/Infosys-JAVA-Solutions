@@ -8,7 +8,7 @@ public class Runner {
 		
 		//Results.method1(10, 20, 30);
 		
-		FlowCharts.flowDecision(1, 1, true);
+		FlowCharts.flowDecisionProject(2100);
     }
 
 }
