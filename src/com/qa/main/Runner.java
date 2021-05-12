@@ -6,7 +6,9 @@ public class Runner {
 		
 		//ResultsRevisited.method1(100, 80, 80);
 		
-		Results.method1(10, 20, 30);
+		//Results.method1(10, 20, 30);
+		
+		FlowCharts.flowDecision(1, 1, true);
     }
 
 }
