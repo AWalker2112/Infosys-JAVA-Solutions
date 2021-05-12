@@ -15,7 +15,9 @@ public class Runner {
 		
 		//System.out.println(UniqueSum.calculator(1, 1, 2));
 		
-		Taxes.taxCalculationMethod1( 17000);
+		//Taxes.taxCalculationMethod1( 17000);
+		
+		System.out.println(FizzBuzz.fizzBuzz(1));
     }
 
 }

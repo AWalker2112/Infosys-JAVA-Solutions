@@ -4,7 +4,7 @@ public class Taxes {
 
 	public static int tax;
 
-	public static void taxCalculationMethod1(double salary) {
+	public static Integer taxCalculationMethod1(double salary) {
 
 		if (salary < 15000) {
 
@@ -31,7 +31,7 @@ public class Taxes {
 		}
 
 		taxCalculationMethod2(salary);
-
+		return tax;
 	}
 
 	public static void taxCalculationMethod2(double salary2) {
