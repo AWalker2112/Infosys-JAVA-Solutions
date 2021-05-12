@@ -13,7 +13,9 @@ public class Runner {
 		
 		//System.out.println(BlackJack.blackJackLogic(22, 23));
 		
-		System.out.println(UniqueSum.calculator(1, 1, 2));
+		//System.out.println(UniqueSum.calculator(1, 1, 2));
+		
+		Taxes.taxCalculationMethod1( 17000);
     }
 
 }
