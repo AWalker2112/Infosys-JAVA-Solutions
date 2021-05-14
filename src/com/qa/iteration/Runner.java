@@ -7,7 +7,7 @@ public class Runner {
 		
 		
 		//Numbers.iterationNumbersMethod1(66);
-		Numbers.iterationNumbersMethod3(30);
+		Numbers.iterationNumbersMethod4(100);
 		
 	}
 
