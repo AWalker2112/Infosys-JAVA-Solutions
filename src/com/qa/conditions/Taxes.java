@@ -1,4 +1,4 @@
-package com.qa.main;
+package com.qa.conditions;
 
 public class Taxes {
 
