@@ -2,7 +2,6 @@ package com.qa.iteration;
 
 public class Numbers {
 
-
 	private static final String[] tensNames = { "", " ten", " twenty", " thirty", " forty", " fifty", " sixty",
 			" seventy", " eighty", " ninety" };
 
@@ -20,37 +19,41 @@ public class Numbers {
 	}
 
 	public static void iterationNumbersMethod2(int num1) {
-		
-		String wordNumber;
+
+		String wordNumber = "";
 		int numOne = num1 % 10;
 		int numTen = (num1 - (num1 % 10)) / 10;
-		
-		if (num1<20) {
-			for (int i=0; i<19;i++) {
-			if(num1 == i) {
+
+		if (num1 < 20) {
+			for (int i = 0; i < 19; i++) {
+				if (num1 == i) {
+
+					wordNumber = numNames[i];
+					System.out.println(wordNumber);
+				}
+
+			}
+		} else {
+			for (int i = 0; i < 10; i++) {
 				
-				wordNumber = numNames[i];
-				System.out.println(wordNumber);
+				if (numTen == i) {
+
+					wordNumber = tensNames[i];
+					
+				}
+			}
+			for (int i = 0; i < 10; i++) {
+				
+				if (numOne == i) {
+
+					wordNumber = wordNumber + numNames[i];
+					
+				}
 			}
 			
+
 		}
-		}else {
-			
-			for (int i=0; i<10;i++) {
-			System.out.println(i);
-			if(numOne == i) {
-				
-				wordNumber = numNames[i];
-				System.out.println(wordNumber);
-			}
-		}
-		}
-		
-		
-		
-		
-		
-		
+		System.out.println(wordNumber);
 	}
 
 }
