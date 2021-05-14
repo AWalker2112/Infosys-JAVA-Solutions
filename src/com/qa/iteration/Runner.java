@@ -8,7 +8,10 @@ public class Runner {
 		
 		//Numbers.iterationNumbersMethod1(66);
 		//Numbers.iterationNumbersMethod4(100);
-		Coins.coins(20, 5.22);
+		CoinsAlternative.coins();
+		
+		
+		
 	}
 
 }
