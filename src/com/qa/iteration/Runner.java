@@ -8,7 +8,7 @@ public class Runner {
 		
 		//Numbers.iterationNumbersMethod1(66);
 		//Numbers.iterationNumbersMethod4(100);
-		Flowcharts.flowCharts2();
+		Flowcharts.flowCharts5(10); 
 	}
 
 }
