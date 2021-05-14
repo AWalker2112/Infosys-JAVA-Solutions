@@ -112,10 +112,6 @@ public class Numbers {
 		int numHun = ((num1 % 1000) - ((num1 % 1000) % 100)) / 100;
 		int numTho = (num1 - (num1 % 1000)) / 1000;
 
-		System.out.println(numOne);
-		System.out.println(numTen);
-		System.out.println(numHun);
-		System.out.println(numTho);
 		if (num1 < 20) {
 			for (int i = 0; i < 19; i++) {
 				if (num1 == i) {
