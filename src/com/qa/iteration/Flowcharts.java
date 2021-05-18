@@ -66,8 +66,8 @@ public class Flowcharts {
 			A++;
 
 		}
-		
-		A = 100; //This is to reset A
+
+		A = 100; // This is to reset A
 
 		for (int i = A; i < 200; i++) {
 
@@ -80,18 +80,29 @@ public class Flowcharts {
 
 			A++;
 
-
 		}
 
 	}
-	
+
 	public static void flowCharts5(Integer input) {
-		
-		for(int i = 0; i < input;i++) {
-			
+
+		for (int i = 0; i < input; i++) {
+
 			System.out.println(input);
 		}
-		
+
 	}
 
+	public static void flowCharts6(Integer input) {
+
+		for (int i = 100; i < 200; i++) {
+			
+			if (i % 2 == 0) {
+				System.out.println("-");
+			} else {
+				System.out.println("*");
+
+			}
+		}
+	}
 }
