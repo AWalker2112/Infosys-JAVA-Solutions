@@ -2,7 +2,7 @@ package com.qa.classcontructors;
 
 public class Book {
 	
-	public static String title;
+	public String title;
 	public int pageNumber;
 	public String author;
 	
