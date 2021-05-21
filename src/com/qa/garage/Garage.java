@@ -12,9 +12,9 @@ public class Garage {
 	
 	
 	
-	public Garage(List<Vehicle> contents, int length, int width, int height) {
+	public Garage( int length, int width, int height) {
 		super();
-		this.contents = contents;
+		
 		this.length = length;
 		this.width = width;
 		this.height = height;
@@ -24,6 +24,14 @@ public class Garage {
 
 	public void addVehicle(Vehicle input) {
 		contents.add(input);
+	}
+	
+	public int calculateBill() {
+		int totalBill = 0;
+		for(Vehicle i: contents) {
+			totalBill = totalBill + i.getValue();
+		}
+		return totalBill;
 	}
 	
 	

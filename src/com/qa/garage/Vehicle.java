@@ -9,12 +9,13 @@ public abstract class Vehicle {
 	public int width;
 	public int height;
 	public int mass;
+	public int value;
 
 	public abstract void accelerate();
 
 	public abstract void applyBreaks();
 
-	public Vehicle(Boolean hasWheels, double engineSize, String colour, int length, int width, int height, int mass) {
+	public Vehicle(Boolean hasWheels, double engineSize, String colour, int length, int width, int height, int mass, int value) {
 		super();
 		this.hasWheels = hasWheels;
 		this.engineSize = engineSize;
@@ -23,6 +24,7 @@ public abstract class Vehicle {
 		this.width = width;
 		this.height = height;
 		this.mass = mass;
+		this.value = value;
 	}
 
 	public Boolean getHasWheels() {
@@ -79,6 +81,14 @@ public abstract class Vehicle {
 
 	public void setMass(int mass) {
 		this.mass = mass;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
 	}
 
 }

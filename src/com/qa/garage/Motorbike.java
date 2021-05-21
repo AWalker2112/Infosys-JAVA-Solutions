@@ -2,8 +2,8 @@ package com.qa.garage;
 
 public class Motorbike extends Vehicle{
 
-	public Motorbike(Boolean hasWheels, double engineSize, String colour, int length, int width, int height, int mass) {
-		super(hasWheels, engineSize, colour, length, width, height, mass);
+	public Motorbike(Boolean hasWheels, double engineSize, String colour, int length, int width, int height, int mass, int value) {
+		super(hasWheels, engineSize, colour, length, width, height, mass, value);
 		// TODO Auto-generated constructor stub
 	}
 
